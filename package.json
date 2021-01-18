@@ -1,0 +1,32 @@
+{
+  "name": "juli-cli",
+  "version": "1.0.2",
+  "description": "学习开源自动化脚手架",
+  "main": "./bin/mzy-cli",
+  "bin": {
+    "mzy-cli": "./bin/mzy-cli"
+  },
+  "keywords": [
+    "cli",
+    "vue"
+  ],
+  "author": "mzy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue-view/mzy-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blue-view/mzy-cli/issues"
+  },
+  "homepage": "https://github.com/blue-view/mzy-cli#readme",
+  "dependencies": {
+    "alphabetjs": "^0.1.4",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
